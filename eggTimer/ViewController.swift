@@ -24,8 +24,8 @@ class ViewController: UIViewController {
     let progressBar = UIProgressView()
     let stopButton = UIButton()
     
-    let cookingTime = ["Soft": 3, "Medium": 4, "Hard": 6]
-    //soft 360, medium 480, hard 600
+    let cookingTime = ["Soft": 3, "Medium": 4, "Hard": 6]  //soft 360, medium 480, hard 600
+    
     lazy var workItem = DispatchWorkItem() {
         self.resetView()
     }
